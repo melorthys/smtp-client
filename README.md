@@ -10,6 +10,6 @@ go run main.go
 
 ### Build and Run
 ```
-go build
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build
 ./main
 ```
